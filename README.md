@@ -10,11 +10,16 @@ Bu paket, **The Legend of Zelda: Ocarina of Time Remake** sürümünü PC'de en 
 
 ## 🌟 Öne Çıkan Özellikler (Features)
 
-- ⚡ **30.000+ Önceden Derlenmiş Shader Paketi (Shader Cache):** Oyun esnasında meydana gelen tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır. 
-- 🚀 **Lossless Scaling v3.2.2 Dahili & Otomatik Entegrasyon:** LSFG 2.3 X2 modeli ile optimize edilmiş, ghosting (gölgelenme/hayalet iz) yapmayan sıfır gecikmeli 120 FPS akıcılık.
-- 🎨 **Kristal Netliğinde Görüntü (Bilinear & Anti-Artifact):** FSR kaynaklı çamurlanma ve gölgelenmeler engellenmiş, Bilinear filtreleme ile orijinal keskinlik korunmuştur.
-- 🖥️ **Kenarlıksız Tam Ekran (Borderless Fullscreen):** Emülatörün üst menü ve alt durum çubukları gizlenmiş, tam ekranda otomatik ölçekleme yapılandırılmıştır.
-- 📦 **Taşınabilir & Tak-Çalıştır (Portable):** Kurulum gerektirmez, kayıt dosyalarınızı ve ayarlarınızı kendi klasöründe saklar.
+- ⚡ **30.000+ Önceden Derlenmiş Shader Paketi (Shader Cache):** Oyun esnasında meydana gelen tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır.  
+  *30,000+ Pre-compiled Shader Cache: Eliminates all in-game shader compilation stutters for a perfectly smooth experience.*
+- 🚀 **Lossless Scaling v3.2.2 Dahili & Otomatik Entegrasyon:** LSFG 2.3 X2 modeli ile optimize edilmiş, ghosting (gölgelenme/hayalet iz) yapmayan sıfır gecikmeli 120 FPS akıcılık.  
+  *Lossless Scaling v3.2.2 Built-in & Auto-integrated: LSFG 2.3 X2 frame generation — zero ghosting, zero input lag, 120 FPS smoothness.*
+- 🎨 **Kristal Netliğinde Görüntü (Bilinear & Anti-Artifact):** FSR kaynaklı çamurlanma ve gölgelenmeler engellenmiş, Bilinear filtreleme ile orijinal keskinlik korunmuştur.  
+  *Crystal-clear Image Quality: FSR blur and artifacting removed, original sharpness preserved via Bilinear filtering.*
+- 🖥️ **Kenarlıksız Tam Ekran (Borderless Fullscreen):** Emülatörün üst menü ve alt durum çubukları gizlenmiş, tam ekranda otomatik ölçekleme yapılandırılmıştır.  
+  *Borderless Fullscreen: Emulator menu bars hidden, auto-scaling configured for a clean fullscreen experience.*
+- 📦 **Taşınabilir & Tak-Çalıştır (Portable):** Kurulum gerektirmez, kayıt dosyalarınızı ve ayarlarınızı kendi klasöründe saklar.  
+  *Portable & Plug-and-Play: No installation required, all settings and saves stored within the package folder.*
 
 ---
 
