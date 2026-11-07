@@ -42,40 +42,42 @@ echo [1/3] ROM tespit edildi: "!ROM_FILE!"
 echo.
 
 :: 2. 30.000 Shader Cache Acilisi
-if not exist "%~dp0Emulator\user\cache\shader\0400486024dec000\vulkan.fork-v53.bin" (
-    echo [2/3] 30.000 Shader Cache paketi aciliyor...
-    echo (Lutfen bekleyin, bu islem yuksek performans icin SADECE ilk acilista yapilir)...
-    
-    if not exist "%~dp0Emulator\user\cache\shader" (
-        mkdir "%~dp0Emulator\user\cache\shader" >nul 2>&1
-    )
-    
-    copy /b "%~dp0ShaderCache\shader_cache.part1" + "%~dp0ShaderCache\shader_cache.part2" "%~dp0ShaderCache\temp_cache.tar.xz" >nul
-    tar -xf "%~dp0ShaderCache\temp_cache.tar.xz" -C "%~dp0Emulator\user\cache\shader"
-    del "%~dp0ShaderCache\temp_cache.tar.xz" >nul 2>&1
-    
-    echo [OK] 30.000 Shader derleme paketi basariyla kuruldu!
-    echo.
-) else (
-    echo [2/3] Shader Cache paketi hazir (30.000 Shader yuklu).
-    echo.
-)
+if exist "%~dp0Emulator\user\cache\shader\0400486024dec000\vulkan.fork-v53.bin" goto :ShaderReady
+
+echo [2/3] 30.000 Shader Cache paketi aciliyor...
+echo Lutfen bekleyin, bu islem yuksek performans icin SADECE ilk acilista yapilir...
+
+if not exist "%~dp0Emulator\user\cache\shader" mkdir "%~dp0Emulator\user\cache\shader" >nul 2>&1
+
+copy /b "%~dp0ShaderCache\shader_cache.part1" + "%~dp0ShaderCache\shader_cache.part2" "%~dp0ShaderCache\temp_cache.tar.xz" >nul
+tar -xf "%~dp0ShaderCache\temp_cache.tar.xz" -C "%~dp0Emulator\user\cache\shader"
+del "%~dp0ShaderCache\temp_cache.tar.xz" >nul 2>&1
+
+echo [OK] 30.000 Shader derleme paketi basariyla kuruldu!
+echo.
+goto :ShaderDone
+
+:ShaderReady
+echo [2/3] Shader Cache paketi hazir - 30.000 Shader yuklu.
+echo.
+
+:ShaderDone
 
 :: 3. Lossless Scaling Entegrasyonu
 echo [3/3] Lossless Scaling ayari yapilandiriliyor...
 powershell -ExecutionPolicy Bypass -NoProfile -File "%~dp0setup_helper.ps1" -LichiiPath "%~dp0Emulator\lichii.exe"
 
 tasklist /FI "IMAGENAME eq LosslessScaling.exe" 2>NUL | find /I /N "LosslessScaling.exe" >NUL
-if "%ERRORLEVEL%"=="1" (
+if errorlevel 1 (
     start "" "%~dp0LosslessScaling\LosslessScaling.exe"
-    timeout /t 2 /nobreak >nul
+    ping 127.0.0.1 -n 3 >nul
 )
 
 :: 4. Oyunu Baslat
 echo.
 echo ===============================================================================
 echo  Oyun baslatiliyor! 
-echo  Lossless Scaling (LSFG 2X FPS / 0 Ghosting) 3 sn icinde otomatik devreye girecektir.
+echo  Lossless Scaling LSFG 2X FPS / 0 Ghosting - 3 sn icinde otomatik devreye girecektir.
 echo.
 echo  Iyi oyunlar dileriz! / Have fun!
 echo  X: @lordumelkor
@@ -84,5 +86,5 @@ echo.
 
 start "" "%~dp0Emulator\lichii.exe" "!ROM_FILE!"
 
-timeout /t 4 /nobreak >nul
+ping 127.0.0.1 -n 5 >nul
 exit /b
