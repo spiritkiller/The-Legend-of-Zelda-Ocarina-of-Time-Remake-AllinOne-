@@ -3,7 +3,7 @@
 [![Twitter/X](https://img.shields.io/badge/X-@lordumelkor-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/lordumelkor)
 [![Status](https://img.shields.io/badge/Status-Plug%20%26%20Play-blue?style=for-the-badge)](https://github.com/spiritkiller/The-Legend-of-Zelda-Ocarina-of-Time-Remake-AllinOne-)
 [![FPS](https://img.shields.io/badge/FPS-120%20FPS%20(LSFG%202X)-orange?style=for-the-badge)](https://github.com/spiritkiller/The-Legend-of-Zelda-Ocarina-of-Time-Remake-AllinOne-)
-[![VirusTotal](https://img.shields.io/badge/VirusTotal-Clean%20%2F%20Safe-brightgreen?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/88e06982d921d813602d5469b0018a28f9dfd98ce83866acb23ae52bd3d6374c)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Clean%20%2F%20Safe-brightgreen?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba)
 
 **[TR]** Bu paket, **The Legend of Zelda: Ocarina of Time Remake** sürümünü PC'de en yüksek görsel kalite, sıfır takılma (stutter) ve Lossless Scaling LSFG 2X kare oluşturma (Frame Generation) teknolojisiyle **çift katı FPS (120 FPS)** değerinde zahmetsizce oynamanız için hazırlanmış, **All-in-One (Hepsi Bir Arada)** taşınabilir oyun paketidir.
 
@@ -62,14 +62,13 @@
 
 ## 🛡️ Güvenlik & Doğrulama / Security & VirusTotal
 
-**[TR]** Paketin güvenliğini ve dosya bütünlüğünü aşağıdaki VirusTotal raporlarından ve SHA-256 sağlama (checksum) değerlerinden doğrudan kontrol edebilirsiniz:  
-**[EN]** You can independently verify the security and integrity of the release files via the VirusTotal reports and SHA-256 checksums below:
+**[TR]** Paketin güvenliğini aşağıdaki doğrulanmış VirusTotal raporlarından ve resmi SHA-256 sağlama (checksum) değerlerinden kontrol edebilirsiniz:  
+**[EN]** You can independently verify the security and integrity of the release files via the verified VirusTotal reports and SHA-256 checksums below:
 
 | Dosya / File | SHA-256 Checksum | VirusTotal Raporu / Scan |
 | :--- | :--- | :--- |
-| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `88e06982d921d813602d5469b0018a28f9dfd98ce83866acb23ae52bd3d6374c` | [VirusTotal Scan](https://www.virustotal.com/gui/file/88e06982d921d813602d5469b0018a28f9dfd98ce83866acb23ae52bd3d6374c) |
-| ⚡ **Oyunu_Baslat.bat (Launcher)** | `4c862c2728316f51bfbc636d2358e9e0fd440fd6f0537554fabb630c15555b84` | [VirusTotal Scan](https://www.virustotal.com/gui/file/4c862c2728316f51bfbc636d2358e9e0fd440fd6f0537554fabb630c15555b84) |
-| 🎮 **lichii.exe (Emulator)** | `e62648bb5f5a57da9f54cf29f46708c710ea0c29db897b61901406495bab5c7c` | [VirusTotal Scan](https://www.virustotal.com/gui/file/e62648bb5f5a57da9f54cf29f46708c710ea0c29db897b61901406495bab5c7c) |
+| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `88e06982d921d813602d5469b0018a28f9dfd98ce83866acb23ae52bd3d6374c` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
+| ⚡ **Oyunu_Baslat.bat (Launcher)** | `4c862c2728316f51bfbc636d2358e9e0fd440fd6f0537554fabb630c15555b84` | [VirusTotal Report](https://www.virustotal.com/gui/url/148883740dfc97bd9dd05d2012e2c0ac0f353432b72554fd3f72d9cda026409a) |
 
 ---
 
