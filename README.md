@@ -11,6 +11,19 @@
 
 ---
 
+## 🛡️ Güvenlik & Doğrulama / Security & VirusTotal
+
+**[TR]** Paketin güvenliğini aşağıdaki doğrulanmış VirusTotal raporlarından ve resmi SHA-256 sağlama (checksum) değerlerinden kontrol edebilirsiniz:  
+**[EN]** You can independently verify the security and integrity of the release files via the verified VirusTotal reports and SHA-256 checksums below:
+
+| Dosya / File | SHA-256 Checksum | VirusTotal Raporu / Scan |
+| :--- | :--- | :--- |
+| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `88e06982d921d813602d5469b0018a28f9dfd98ce83866acb23ae52bd3d6374c` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
+| ⚡ **Oyunu_Baslat.bat (Launcher)** | `4c862c2728316f51bfbc636d2358e9e0fd440fd6f0537554fabb630c15555b84` | [VirusTotal Report](https://www.virustotal.com/gui/url/148883740dfc97bd9dd05d2012e2c0ac0f353432b72554fd3f72d9cda026409a) |
+
+---
+
+
 ## 🌟 Öne Çıkan Özellikler / Features
 
 - ⚡ **30.000+ Önceden Derlenmiş Shader Paketi (Shader Cache):** Oyun esnasında meydana gelen tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır.  
@@ -57,18 +70,6 @@
 | **Frame Generation** | LSFG 2 (X2) | [TR] Link karakteri ve kamera hareketlerinde sıfır ghosting<br>[EN] Zero ghosting on Link and fast camera movement |
 | **Max Frame Latency** | 1 | [TR] Minimum girdi gecikmesi (Düşük Gecikme)<br>[EN] Lowest possible input latency (Low Input Lag) |
 | **Capture API** | DXGI | [TR] En düşük gecikmeli pencere yakalama modu<br>[EN] Ultra-low latency desktop window capture |
-
----
-
-## 🛡️ Güvenlik & Doğrulama / Security & VirusTotal
-
-**[TR]** Paketin güvenliğini aşağıdaki doğrulanmış VirusTotal raporlarından ve resmi SHA-256 sağlama (checksum) değerlerinden kontrol edebilirsiniz:  
-**[EN]** You can independently verify the security and integrity of the release files via the verified VirusTotal reports and SHA-256 checksums below:
-
-| Dosya / File | SHA-256 Checksum | VirusTotal Raporu / Scan |
-| :--- | :--- | :--- |
-| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `88e06982d921d813602d5469b0018a28f9dfd98ce83866acb23ae52bd3d6374c` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
-| ⚡ **Oyunu_Baslat.bat (Launcher)** | `4c862c2728316f51bfbc636d2358e9e0fd440fd6f0537554fabb630c15555b84` | [VirusTotal Report](https://www.virustotal.com/gui/url/148883740dfc97bd9dd05d2012e2c0ac0f353432b72554fd3f72d9cda026409a) |
 
 ---
 
