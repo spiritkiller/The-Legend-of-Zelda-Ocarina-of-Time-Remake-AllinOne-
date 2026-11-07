@@ -3,6 +3,7 @@
 [![Twitter/X](https://img.shields.io/badge/X-@lordumelkor-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/lordumelkor)
 [![Status](https://img.shields.io/badge/Status-Plug%20%26%20Play-blue?style=for-the-badge)](https://github.com/spiritkiller/The-Legend-of-Zelda-Ocarina-of-Time-Remake-AllinOne-)
 [![FPS](https://img.shields.io/badge/FPS-120%20FPS%20(LSFG%202X)-orange?style=for-the-badge)](https://github.com/spiritkiller/The-Legend-of-Zelda-Ocarina-of-Time-Remake-AllinOne-)
+[![VirusTotal](https://img.shields.io/badge/VirusTotal-Clean%20%2F%20Safe-brightgreen?style=for-the-badge&logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/88e06982d921d813602d5469b0018a28f9dfd98ce83866acb23ae52bd3d6374c)
 
 **[TR]** Bu paket, **The Legend of Zelda: Ocarina of Time Remake** sürümünü PC'de en yüksek görsel kalite, sıfır takılma (stutter) ve Lossless Scaling LSFG 2X kare oluşturma (Frame Generation) teknolojisiyle **çift katı FPS (120 FPS)** değerinde zahmetsizce oynamanız için hazırlanmış, **All-in-One (Hepsi Bir Arada)** taşınabilir oyun paketidir.
 
@@ -28,7 +29,7 @@
 ## 📥 Kurulum & Nasıl Oynanır? / How to Play
 
 ### [TR] Türkçe Kurulum:
-1. Bu repoyu indirin (Yeşil **Code** butonundan **Download ZIP** yapın veya `git clone` ile çekin) ve bir klasöre çıkartın.
+1. Bu repoyu indirin (Yeşil **Code** butonundan **Download ZIP** yapın veya `git clone` ile çekin ya da doğrudan **[Releases](https://github.com/spiritkiller/The-Legend-of-Zelda-Ocarina-of-Time-Remake-AllinOne-/releases)** sayfasından tek parça zip dosyasını indirin) ve bir klasöre çıkartın.
 2. Sahip olduğunuz Ocarina of Time Remake oyun dosyanızı (`.nup` uzantılı dosya) **`ROM_BURAYA_KONACAK`** klasörünün içine yapıştırın.
 3. Ana dizindeki **`Oyunu_Baslat.bat`** (veya `Start_Game.bat`) dosyasına çift tıklayın!
 4. **İlk açılışta:** 30.000 shader paketi 5-10 saniye içinde otomatik açılacak ve emülatöre aktarılacaktır.
@@ -37,7 +38,7 @@
 ---
 
 ### [EN] English Instructions:
-1. Download this repository (**Code -> Download ZIP** or `git clone`) and extract it.
+1. Download this repository (**Code -> Download ZIP** or `git clone` or directly get the standalone package from **[Releases](https://github.com/spiritkiller/The-Legend-of-Zelda-Ocarina-of-Time-Remake-AllinOne-/releases)**) and extract it.
 2. Put your Ocarina of Time Remake ROM file (`.nup` extension) into the **`ROM_BURAYA_KONACAK`** folder.
 3. Double click on **`Start_Game.bat`** (or `Oyunu_Baslat.bat`).
 4. **On first launch:** The 30,000 shader cache will automatically decompress and load within seconds.
@@ -56,6 +57,19 @@
 | **Frame Generation** | LSFG 2 (X2) | [TR] Link karakteri ve kamera hareketlerinde sıfır ghosting<br>[EN] Zero ghosting on Link and fast camera movement |
 | **Max Frame Latency** | 1 | [TR] Minimum girdi gecikmesi (Düşük Gecikme)<br>[EN] Lowest possible input latency (Low Input Lag) |
 | **Capture API** | DXGI | [TR] En düşük gecikmeli pencere yakalama modu<br>[EN] Ultra-low latency desktop window capture |
+
+---
+
+## 🛡️ Güvenlik & Doğrulama / Security & VirusTotal
+
+**[TR]** Paketin güvenliğini ve dosya bütünlüğünü aşağıdaki VirusTotal raporlarından ve SHA-256 sağlama (checksum) değerlerinden doğrudan kontrol edebilirsiniz:  
+**[EN]** You can independently verify the security and integrity of the release files via the VirusTotal reports and SHA-256 checksums below:
+
+| Dosya / File | SHA-256 Checksum | VirusTotal Raporu / Scan |
+| :--- | :--- | :--- |
+| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `88e06982d921d813602d5469b0018a28f9dfd98ce83866acb23ae52bd3d6374c` | [VirusTotal Scan](https://www.virustotal.com/gui/file/88e06982d921d813602d5469b0018a28f9dfd98ce83866acb23ae52bd3d6374c) |
+| ⚡ **Oyunu_Baslat.bat (Launcher)** | `4c862c2728316f51bfbc636d2358e9e0fd440fd6f0537554fabb630c15555b84` | [VirusTotal Scan](https://www.virustotal.com/gui/file/4c862c2728316f51bfbc636d2358e9e0fd440fd6f0537554fabb630c15555b84) |
+| 🎮 **lichii.exe (Emulator)** | `e62648bb5f5a57da9f54cf29f46708c710ea0c29db897b61901406495bab5c7c` | [VirusTotal Scan](https://www.virustotal.com/gui/file/e62648bb5f5a57da9f54cf29f46708c710ea0c29db897b61901406495bab5c7c) |
 
 ---
 
