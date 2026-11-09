@@ -58,9 +58,9 @@ echo [1/3] ROM tespit edildi: "!ROM_FILE!"
 echo.
 
 :: 3. 30.000 Shader Cache Acilisi
-if exist "%~dp0Emulator\user\cache\shader\0400486024dec000\vulkan.fork-v53.bin" goto :ShaderReady
+if exist "%~dp0Emulator\user\cache\shader\0400486024dec000\vulkan-frizti.fork-v54.bin" goto :ShaderReady
 
-echo [2/3] 30.000 Shader Cache paketi aciliyor...
+echo [2/3] 30.000 Shader Cache paketi (v54) aciliyor...
 echo Lutfen bekleyin, bu islem yuksek performans icin SADECE ilk acilista yapilir...
 
 if not exist "%~dp0Emulator\user\cache\shader" mkdir "%~dp0Emulator\user\cache\shader" >nul 2>&1

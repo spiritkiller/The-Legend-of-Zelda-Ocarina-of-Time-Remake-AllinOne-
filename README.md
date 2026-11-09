@@ -26,8 +26,10 @@
 
 ## 🌟 Öne Çıkan Özellikler / Features
 
-- ⚡ **30.000+ Önceden Derlenmiş Shader Paketi (Shader Cache):** Oyun esnasında meydana gelen tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır.  
-  *30,000+ Pre-compiled Shader Cache: Eliminates all in-game shader compilation stutters for a perfectly smooth experience.*
+- 🏎️ **Fritchii v5.3 ile Üst Düzey Performans (40-80+ FPS):** Yeni Fritchii v5.3 çekirdeği ile Kasaba (Castle Town) gibi en ağır bölgelerde bile 40-80+ FPS yerel akıcılık, Lossless Scaling LSFG 2X ile **80-120+ FPS**!  
+  *Superior Performance with Fritchii v5.3 (40-80+ FPS): Smooth 40-80+ FPS native performance even in demanding areas like Castle Town, boosted to 80-120+ FPS with Lossless Scaling LSFG 2X!*
+- ⚡ **30.000+ v54 Shader Cache & Dahili Recipe Desteği:** Oyun esnasındaki tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır. Fritchii `.nx2recipe` desteği dahildir.  
+  *30,000+ v54 Shader Cache & Native Recipe Support: Eliminates all in-game shader compilation stutters. Includes official Fritchii `.nx2recipe` integration.*
 - 🚀 **Lossless Scaling v3.2.2 Dahili & Otomatik Entegrasyon:** LSFG 2.3 X2 modeli ile optimize edilmiş, ghosting (gölgelenme/hayalet iz) yapmayan sıfır gecikmeli 120 FPS akıcılık.  
   *Lossless Scaling v3.2.2 Built-in & Auto-integrated: LSFG 2.3 X2 frame generation — zero ghosting, zero input lag, 120 FPS smoothness.*
 - 🎨 **Kristal Netliğinde Görüntü (Bilinear & Anti-Artifact):** FSR kaynaklı çamurlanma ve gölgelenmeler engellenmiş, Bilinear filtreleme ile orijinal keskinlik korunmuştur.  
