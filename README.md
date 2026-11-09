@@ -11,6 +11,9 @@
 
 ---
 
+Gameplay Video:
+https://www.youtube.com/watch?v=sZ9ysGepE8M
+
 ## 🛡️ Güvenlik & Doğrulama / Security & VirusTotal
 
 **[TR]** Paketin güvenliğini aşağıdaki doğrulanmış VirusTotal raporlarından ve resmi SHA-256 sağlama (checksum) değerlerinden kontrol edebilirsiniz:  
