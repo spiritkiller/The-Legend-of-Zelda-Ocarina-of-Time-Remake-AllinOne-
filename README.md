@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=sZ9ysGepE8M
 
 | Dosya / File | SHA-256 Checksum | VirusTotal Raporu / Scan |
 | :--- | :--- | :--- |
-| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `52bccea3cdb11ff9d8f3baba4d367f7d22d664e0b5c7c4404180c76ae15f4745` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
+| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `59861b0c3be0aa01799aeda8d20b3babaf29dab6af46486b58a66ae64888d95b` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
 | ⚡ **Oyunu_Baslat.bat (Launcher)** | `4de3d21bde5a9011ea2fb9d867010458e948a6c3954a88043b70e9463ab5e88c` | [VirusTotal Report](https://www.virustotal.com/gui/url/148883740dfc97bd9dd05d2012e2c0ac0f353432b72554fd3f72d9cda026409a) |
 
 ---
@@ -29,10 +29,14 @@ https://www.youtube.com/watch?v=sZ9ysGepE8M
 
 ## 🌟 Öne Çıkan Özellikler / Features
 
-- 🏎️ **Fritchii v5.3 ile Üst Düzey Performans (40-80+ FPS):** Yeni Fritchii v5.3 çekirdeği ile Kasaba (Castle Town) gibi en ağır bölgelerde bile 40-80+ FPS yerel akıcılık, Lossless Scaling LSFG 2X ile **80-120+ FPS**!  
-  *Superior Performance with Fritchii v5.3 (40-80+ FPS): Smooth 40-80+ FPS native performance even in demanding areas like Castle Town, boosted to 80-120+ FPS with Lossless Scaling LSFG 2X!*
-- ⚡ **30.000+ v54 Shader Cache & Dahili Recipe Desteği:** Oyun esnasındaki tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır. Fritchii `.nx2recipe` desteği dahildir.  
-  *30,000+ v54 Shader Cache & Native Recipe Support: Eliminates all in-game shader compilation stutters. Includes official Fritchii `.nx2recipe` integration.*
+- 🏎️ **Fritchii v5.8.4 ile En Yeni Çekirdek (40-80+ FPS):** Yeni Fritchii v5.8.4 çekirdeği ile Kasaba (Castle Town) gibi en ağır bölgelerde bile 40-80+ FPS yerel akıcılık, Lossless Scaling LSFG 2X ile **80-120+ FPS**!  
+  *Peak Performance with Fritchii v5.8.4 (40-80+ FPS): Smooth 40-80+ FPS native performance even in demanding areas like Castle Town, boosted to 80-120+ FPS with Lossless Scaling LSFG 2X!*
+- 🧠 **12GB DRAM Switch 2 Uyumu & Oyun Bazlı DLSS Ayarları:** OoT Remake için optimize edilmiş 12GB DRAM mimarisi, oyun bazlı bağımsız DLSS Quality ve Preset yapılandırması.  
+  *12GB DRAM Switch 2 Support & Per-Game DLSS: Native 12GB DRAM layout optimization for OoT Remake, with per-game DLSS Quality and Preset controls.*
+- 💾 **Dahili Saves Yöneticisi & Otomatik Yedekleme:** Fritchii v5.8.4 ile kayıt dosyaları tek tıkla dışa/içe aktarılabilir (Export/Import), profiller otomatik senkronize edilir ve işlemler öncesi güvenli yedek alınır.  
+  *Built-in Saves Manager & Auto-Backup: One-click save export/import, automatic profile sync, and automated backup before save modifications.*
+- ⚡ **30.000+ v54 Shader Cache & Dahili Recipe Desteği:** Oyun esnasındaki tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır. Fritchii `.nx2recipe` desteği ve `nx2-precompile` entegrasyonu dahildir.  
+  *30,000+ v54 Shader Cache & Native Recipe Support: Eliminates all in-game shader compilation stutters. Includes official Fritchii `.nx2recipe` & `nx2-precompile` integration.*
 - 🚀 **Lossless Scaling v3.2.2 Dahili & Otomatik Entegrasyon:** LSFG 2.3 X2 modeli ile optimize edilmiş, ghosting (gölgelenme/hayalet iz) yapmayan sıfır gecikmeli 120 FPS akıcılık.  
   *Lossless Scaling v3.2.2 Built-in & Auto-integrated: LSFG 2.3 X2 frame generation — zero ghosting, zero input lag, 120 FPS smoothness.*
 - 🎨 **Kristal Netliğinde Görüntü (Bilinear & Anti-Artifact):** FSR kaynaklı çamurlanma ve gölgelenmeler engellenmiş, Bilinear filtreleme ile orijinal keskinlik korunmuştur.  
