@@ -83,6 +83,7 @@ echo.
 :ShaderDone
 
 :: 4. Lossless Scaling Entegrasyonu
+set "LS_STARTED_BY_US=0"
 if not exist "%~dp0LosslessScaling\LosslessScaling.exe" (
     echo [BILGI / INFO] Lossless Scaling klasoru bulunamadi, emulatorden devam ediliyor...
     goto :SkipLossless
@@ -96,6 +97,7 @@ if exist "%~dp0setup_helper.ps1" (
 tasklist /FI "IMAGENAME eq LosslessScaling.exe" 2>NUL | find /I /N "LosslessScaling.exe" >NUL
 if errorlevel 1 (
     start "" "%~dp0LosslessScaling\LosslessScaling.exe"
+    set "LS_STARTED_BY_US=1"
     ping 127.0.0.1 -n 3 >nul
 )
 
@@ -112,7 +114,14 @@ echo  X: @lordumelkor
 echo ===============================================================================
 echo.
 
-start "" "%~dp0Emulator\lichii.exe" "!ROM_FILE!"
+start /wait "" "%~dp0Emulator\lichii.exe" "!ROM_FILE!"
 
-ping 127.0.0.1 -n 5 >nul
+:: 6. Oyun kapandiktan sonra Lossless Scaling'i kapat
+if "!LS_STARTED_BY_US!"=="1" (
+    echo.
+    echo [BILGI / INFO] Oyun kapandi. Lossless Scaling kapatiliyor...
+    taskkill /F /IM LosslessScaling.exe >nul 2>&1
+    echo [OK] Lossless Scaling kapatildi.
+)
+
 exit /b
