@@ -21,8 +21,8 @@ https://www.youtube.com/watch?v=sZ9ysGepE8M
 
 | Dosya / File | SHA-256 Checksum | VirusTotal Raporu / Scan |
 | :--- | :--- | :--- |
-| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `59861b0c3be0aa01799aeda8d20b3babaf29dab6af46486b58a66ae64888d95b` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
-| ⚡ **Oyunu_Baslat.bat (Launcher)** | `4de3d21bde5a9011ea2fb9d867010458e948a6c3954a88043b70e9463ab5e88c` | [VirusTotal Report](https://www.virustotal.com/gui/url/148883740dfc97bd9dd05d2012e2c0ac0f353432b72554fd3f72d9cda026409a) |
+| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `4717caa0a74dd7a9ae961b35f64e5177332a2b0562403308aefcb4d9f228cab2` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
+| ⚡ **Oyunu_Baslat.bat (Launcher)** | `df03a7828ac7b760805a24ffe6079e2b042c2f9d22e7599c3dfbbe311455e18b` | [VirusTotal Report](https://www.virustotal.com/gui/url/148883740dfc97bd9dd05d2012e2c0ac0f353432b72554fd3f72d9cda026409a) |
 
 ---
 
