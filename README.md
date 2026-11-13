@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=sZ9ysGepE8M
 
 | Dosya / File | SHA-256 Checksum | VirusTotal Raporu / Scan |
 | :--- | :--- | :--- |
-| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `afc925992c9f300075812e124c5606107cadd31bf89f1f282257091a95d23736` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
+| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `dc9a2dd4265a2aabb6dd7b1a7fff7091b03f1a658d2f706962bf42a7941016d0` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
 | ⚡ **Oyunu_Baslat.bat (Launcher)** | `22f29dd93d78334f48902e6169c29869c6e388f6b583b4692d7c8ed43f459e1c` | [VirusTotal Report](https://www.virustotal.com/gui/url/148883740dfc97bd9dd05d2012e2c0ac0f353432b72554fd3f72d9cda026409a) |
 
 ---
@@ -31,8 +31,8 @@ https://www.youtube.com/watch?v=sZ9ysGepE8M
 
 - 🛡️ **Kararlı & Akıcı Çekirdek (Fritchii v5.3):** Fritchii v5.8.4 çekirdeğinde tespit edilen kararsızlık (unstable) ve mikro takılma (stutter) problemleri nedeniyle en stabil ve akıcı çalışan **Fritchii v5.3** çekirdeğine geri dönülmüştür. Kasaba (Castle Town) dahil 40-80+ FPS yerel akıcılık, Lossless Scaling LSFG 2X ile **80-120+ FPS**!  
   *Stable & Smooth Core (Fritchii v5.3 Downgrade): Reverted to the rock-solid Fritchii v5.3 core due to instability and stuttering issues observed in v5.8.4. Enjoy smooth 40-80+ native FPS even in Castle Town, boosted to 80-120+ FPS with Lossless Scaling LSFG 2X!*
-- 🎮 **Düzeltilmiş Konsol / Xbox Kontrolcü Düzeni:** Buton dizilimi standart konsol düzenine uyarlandı: **A: Onay (Alt)**, **B: Geri/İptal (Sağ)**, **X: Sol**, **Y: Üst**.  
-  *Fixed Controller Layout: Standard gamepad mapping: A: Confirm (Bottom), B: Back/Cancel (Right), X: Left, Y: Top.*
+- 🎮 **Evrensel Kontrolcü & DualSense (PS5) / Xbox Desteği:** Donanım bazlı GUID kilitleri kaldırılarak DualSense (PS5), DualShock (PS4), Xbox Series/One ve Switch Pro kontrolcüler için tam 'tak-çalıştır' (Plug & Play) desteği sağlandı. Windows Raw Input entegre edildi ve standart konsol tuş düzeni (**A: Onay/Alt**, **B: Geri/Sağ**, **X: Sol**, **Y: Üst**) yapılandırıldı.  
+  *Universal Gamepad & DualSense (PS5) / Xbox Support: Removed hardware-specific GUID locks to ensure out-of-the-box Plug & Play compatibility for DualSense (PS5), DualShock (PS4), Xbox, and Switch Pro controllers with Windows Raw Input.*
 - 🎨 **Pürüzsüz & Net Görüntü (Lanczos + SMAA + 16x Anisotropic):** FSR hareleri ve FXAA bulanıklığı giderildi; **Lanczos** ölçekleme filtresi, **SMAA** kenar yumuşatma ve **16x Anisotropic Filtering** ile kristal netliğinde pürüzsüz görüntü.  
   *Smooth & Crisp Visuals: Replaced blurry FXAA and artifacting filters with Lanczos scaling, SMAA anti-aliasing, and 16x Anisotropic texture filtering.*
 - ⚡ **30.000+ v54 Shader Cache & Dahili Recipe Desteği:** Oyun esnasındaki tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır. Fritchii `.nx2recipe` desteği dahildir.  
