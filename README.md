@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=sZ9ysGepE8M
 
 | Dosya / File | SHA-256 Checksum | VirusTotal Raporu / Scan |
 | :--- | :--- | :--- |
-| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `4717caa0a74dd7a9ae961b35f64e5177332a2b0562403308aefcb4d9f228cab2` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
+| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `9950d7071156d2fb7398eabc11cada58232946c3d8f882631140795c0419697f` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
 | ⚡ **Oyunu_Baslat.bat (Launcher)** | `df03a7828ac7b760805a24ffe6079e2b042c2f9d22e7599c3dfbbe311455e18b` | [VirusTotal Report](https://www.virustotal.com/gui/url/148883740dfc97bd9dd05d2012e2c0ac0f353432b72554fd3f72d9cda026409a) |
 
 ---
@@ -29,20 +29,18 @@ https://www.youtube.com/watch?v=sZ9ysGepE8M
 
 ## 🌟 Öne Çıkan Özellikler / Features
 
-- 🏎️ **Fritchii v5.8.4 ile En Yeni Çekirdek (40-80+ FPS):** Yeni Fritchii v5.8.4 çekirdeği ile Kasaba (Castle Town) gibi en ağır bölgelerde bile 40-80+ FPS yerel akıcılık, Lossless Scaling LSFG 2X ile **80-120+ FPS**!  
-  *Peak Performance with Fritchii v5.8.4 (40-80+ FPS): Smooth 40-80+ FPS native performance even in demanding areas like Castle Town, boosted to 80-120+ FPS with Lossless Scaling LSFG 2X!*
-- 🧠 **12GB DRAM Switch 2 Uyumu & Oyun Bazlı DLSS Ayarları:** OoT Remake için optimize edilmiş 12GB DRAM mimarisi, oyun bazlı bağımsız DLSS Quality ve Preset yapılandırması.  
-  *12GB DRAM Switch 2 Support & Per-Game DLSS: Native 12GB DRAM layout optimization for OoT Remake, with per-game DLSS Quality and Preset controls.*
-- 💾 **Dahili Saves Yöneticisi & Otomatik Yedekleme:** Fritchii v5.8.4 ile kayıt dosyaları tek tıkla dışa/içe aktarılabilir (Export/Import), profiller otomatik senkronize edilir ve işlemler öncesi güvenli yedek alınır.  
-  *Built-in Saves Manager & Auto-Backup: One-click save export/import, automatic profile sync, and automated backup before save modifications.*
-- ⚡ **30.000+ v54 Shader Cache & Dahili Recipe Desteği:** Oyun esnasındaki tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır. Fritchii `.nx2recipe` desteği ve `nx2-precompile` entegrasyonu dahildir.  
-  *30,000+ v54 Shader Cache & Native Recipe Support: Eliminates all in-game shader compilation stutters. Includes official Fritchii `.nx2recipe` & `nx2-precompile` integration.*
-- 🚀 **Lossless Scaling v3.2.2 Dahili & Otomatik Entegrasyon:** LSFG 2.3 X2 modeli ile optimize edilmiş, ghosting (gölgelenme/hayalet iz) yapmayan sıfır gecikmeli 120 FPS akıcılık.  
-  *Lossless Scaling v3.2.2 Built-in & Auto-integrated: LSFG 2.3 X2 frame generation — zero ghosting, zero input lag, 120 FPS smoothness.*
-- 🎨 **Kristal Netliğinde Görüntü (Bilinear & Anti-Artifact):** FSR kaynaklı çamurlanma ve gölgelenmeler engellenmiş, Bilinear filtreleme ile orijinal keskinlik korunmuştur.  
-  *Crystal-clear Image Quality: FSR blur and artifacting removed, original sharpness preserved via Bilinear filtering.*
-- 🖥️ **Kenarlıksız Tam Ekran (Borderless Fullscreen):** Emülatörün üst menü ve alt durum çubukları gizlenmiş, tam ekranda otomatik ölçekleme yapılandırılmıştır.  
-  *Borderless Fullscreen: Emulator menu bars hidden, auto-scaling configured for a clean borderless fullscreen experience.*
+- 🛡️ **Kararlı & Akıcı Çekirdek (Fritchii v5.3):** Fritchii v5.8.4 çekirdeğinde tespit edilen kararsızlık (unstable) ve mikro takılma (stutter) problemleri nedeniyle en stabil ve akıcı çalışan **Fritchii v5.3** çekirdeğine geri dönülmüştür. Kasaba (Castle Town) dahil 40-80+ FPS yerel akıcılık, Lossless Scaling LSFG 2X ile **80-120+ FPS**!  
+  *Stable & Smooth Core (Fritchii v5.3 Downgrade): Reverted to the rock-solid Fritchii v5.3 core due to instability and stuttering issues observed in v5.8.4. Enjoy smooth 40-80+ native FPS even in Castle Town, boosted to 80-120+ FPS with Lossless Scaling LSFG 2X!*
+- 🎮 **Düzeltilmiş Konsol / Xbox Kontrolcü Düzeni:** Buton dizilimi standart konsol düzenine uyarlandı: **A: Onay (Alt)**, **B: Geri/İptal (Sağ)**, **X: Sol**, **Y: Üst**.  
+  *Fixed Controller Layout: Standard gamepad mapping: A: Confirm (Bottom), B: Back/Cancel (Right), X: Left, Y: Top.*
+- 🎨 **Pürüzsüz & Net Görüntü (Lanczos + SMAA + 16x Anisotropic):** FSR hareleri ve FXAA bulanıklığı giderildi; **Lanczos** ölçekleme filtresi, **SMAA** kenar yumuşatma ve **16x Anisotropic Filtering** ile kristal netliğinde pürüzsüz görüntü.  
+  *Smooth & Crisp Visuals: Replaced blurry FXAA and artifacting filters with Lanczos scaling, SMAA anti-aliasing, and 16x Anisotropic texture filtering.*
+- ⚡ **30.000+ v54 Shader Cache & Dahili Recipe Desteği:** Oyun esnasındaki tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır. Fritchii `.nx2recipe` desteği dahildir.  
+  *30,000+ v54 Shader Cache & Native Recipe Support: Eliminates all in-game shader compilation stutters. Includes official Fritchii `.nx2recipe` integration.*
+- 🚀 **Lossless Scaling v3.2.2 & Otomatik Kapanma:** LSFG 2.3 X2 modeli ile optimize edilmiş 120 FPS akıcılık. Oyundan çıkıldığında Lossless Scaling arka planda açık kalmaz, otomatik olarak kapatılır.  
+  *Lossless Scaling v3.2.2 & Auto-Close: LSFG 2.3 X2 frame generation (120 FPS). Automatically terminates Lossless Scaling when the game exits.*
+- 🖥️ **Kenarlıksız Tam Ekran (Borderless Fullscreen):** Emülatörün menü ve durum çubukları gizlenmiş, tam ekranda otomatik ölçekleme yapılandırılmıştır.  
+  *Borderless Fullscreen: Clean borderless fullscreen experience with automated window scaling.*
 - 📦 **Taşınabilir & Tak-Çalıştır (Portable):** Kurulum gerektirmez, kayıt dosyalarınızı ve ayarlarınızı kendi klasöründe saklar.  
   *Portable & Plug-and-Play: No installation required, all settings and saves stored within the package folder.*
 
