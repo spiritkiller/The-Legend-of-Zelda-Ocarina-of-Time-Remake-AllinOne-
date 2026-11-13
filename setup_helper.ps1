@@ -1,4 +1,4 @@
-param (
+﻿param (
     [string]$LichiiPath = ""
 )
 
@@ -8,20 +8,10 @@ if (-not $LichiiPath) {
 
 $appDataDir = Join-Path $env:LOCALAPPDATA "Lossless Scaling"
 $settingsPath = Join-Path $appDataDir "Settings.xml"
-$templatePath = Join-Path $PSScriptRoot "LosslessScaling\Settings.xml"
 
 try {
-    if (-not (Test-Path $appDataDir)) {
-        New-Item -ItemType Directory -Force -Path $appDataDir | Out-Null
-    }
-
-    if (-not (Test-Path $settingsPath)) {
-        if (Test-Path $templatePath) {
-            $content = Get-Content $templatePath -Raw -Encoding UTF8
-            $content = $content.Replace("{LICHII_PATH}", $LichiiPath)
-            Set-Content -Path $settingsPath -Value $content -Encoding UTF8
-        }
-    } else {
+    # Yalnızca kullanıcının sisteminde Lossless Scaling ayar dizini varsa yapılandır
+    if (Test-Path $settingsPath) {
         [xml]$xml = Get-Content $settingsPath -Encoding UTF8
         $profile = $xml.Settings.GameProfiles.Profile | Where-Object { $_.Title -eq "OcarinaofTime" }
         if ($profile) {
@@ -33,15 +23,10 @@ try {
             $profile.LSFG2Mode = "X2"
             $profile.MaxFrameLatency = "1"
             $profile.WindowedMode = "false"
-        } else {
-            # Create new profile node
-            $templateContent = Get-Content $templatePath -Raw -Encoding UTF8
-            [xml]$templateXml = $templateContent.Replace("{LICHII_PATH}", $LichiiPath)
-            $newProfile = $xml.ImportNode($templateXml.Settings.GameProfiles.Profile[1], $true)
-            $xml.Settings.GameProfiles.AppendChild($newProfile) | Out-Null
+            $xml.Save($settingsPath)
+            Write-Host "[OK] Lossless Scaling OcarinaofTime profili guncellendi."
         }
-        $xml.Save($settingsPath)
     }
 } catch {
-    Write-Warning "Lossless Scaling configuration update failed: $_"
+    Write-Warning "Lossless Scaling konfigurasyon guncellemesi atlandi: $_"
 }

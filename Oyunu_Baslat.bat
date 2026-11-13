@@ -82,46 +82,37 @@ echo.
 
 :ShaderDone
 
-:: 4. Lossless Scaling Entegrasyonu
-set "LS_STARTED_BY_US=0"
-if not exist "%~dp0LosslessScaling\LosslessScaling.exe" (
-    echo [BILGI / INFO] Lossless Scaling klasoru bulunamadi, emulatorden devam ediliyor...
-    goto :SkipLossless
-)
-
-echo [3/3] Lossless Scaling ayari yapilandiriliyor...
-if exist "%~dp0setup_helper.ps1" (
-    powershell -ExecutionPolicy Bypass -NoProfile -File "%~dp0setup_helper.ps1" -LichiiPath "%~dp0Emulator\lichii.exe"
-)
-
+:: 4. Lossless Scaling Entegrasyonu (Opsiyonel / Optional)
+set "LS_ACTIVE=0"
 tasklist /FI "IMAGENAME eq LosslessScaling.exe" 2>NUL | find /I /N "LosslessScaling.exe" >NUL
-if errorlevel 1 (
-    start "" "%~dp0LosslessScaling\LosslessScaling.exe"
-    set "LS_STARTED_BY_US=1"
-    ping 127.0.0.1 -n 3 >nul
+if not errorlevel 1 (
+    set "LS_ACTIVE=1"
+    echo [3/3] Lossless Scaling algilandi - Oyun profili optimize ediliyor...
+    if exist "%~dp0setup_helper.ps1" (
+        powershell -ExecutionPolicy Bypass -NoProfile -File "%~dp0setup_helper.ps1" -LichiiPath "%~dp0Emulator\lichii.exe" >nul 2>&1
+    )
+    echo [OK] Lossless Scaling LSFG 2X (120 FPS) 3 saniye icinde devreye girecektir.
+) else (
+    echo [3/3] Lossless Scaling calismiyor (Opsiyonel).
+    echo [BILGI] Cift kat FPS (120 FPS) deneyimi icin Steam'den Lossless Scaling kullanabilirsiniz.
+    echo       Oyun yerel 60 FPS performansla baslatiliyor...
 )
-
-:SkipLossless
 
 :: 5. Oyunu Baslat
 echo.
 echo ===============================================================================
-echo  Oyun baslatiliyor! 
-echo  Lossless Scaling LSFG 2X FPS / 0 Ghosting - 3 sn icinde otomatik devreye girecektir.
+echo  Oyun baslatiliyor!
+if "!LS_ACTIVE!"=="1" (
+    echo  Mod: 120 FPS (Lossless Scaling LSFG 2X Otomatik Entegre)
+) else (
+    echo  Mod: 60 FPS (Yerel Emulatör Performansi)
+)
 echo.
 echo  Iyi oyunlar dileriz! / Have fun!
 echo  X: @lordumelkor
 echo ===============================================================================
 echo.
 
-start /wait "" "%~dp0Emulator\lichii.exe" "!ROM_FILE!"
-
-:: 6. Oyun kapandiktan sonra Lossless Scaling'i kapat
-if "!LS_STARTED_BY_US!"=="1" (
-    echo.
-    echo [BILGI / INFO] Oyun kapandi. Lossless Scaling kapatiliyor...
-    taskkill /F /IM LosslessScaling.exe >nul 2>&1
-    echo [OK] Lossless Scaling kapatildi.
-)
+start "" "%~dp0Emulator\lichii.exe" "!ROM_FILE!"
 
 exit /b

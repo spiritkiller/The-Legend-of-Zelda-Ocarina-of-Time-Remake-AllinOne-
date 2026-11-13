@@ -21,8 +21,8 @@ https://www.youtube.com/watch?v=sZ9ysGepE8M
 
 | Dosya / File | SHA-256 Checksum | VirusTotal Raporu / Scan |
 | :--- | :--- | :--- |
-| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `9950d7071156d2fb7398eabc11cada58232946c3d8f882631140795c0419697f` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
-| ⚡ **Oyunu_Baslat.bat (Launcher)** | `df03a7828ac7b760805a24ffe6079e2b042c2f9d22e7599c3dfbbe311455e18b` | [VirusTotal Report](https://www.virustotal.com/gui/url/148883740dfc97bd9dd05d2012e2c0ac0f353432b72554fd3f72d9cda026409a) |
+| 📦 **Zelda-OoT-Remake-AllinOne-v1.0.zip** | `afc925992c9f300075812e124c5606107cadd31bf89f1f282257091a95d23736` | [VirusTotal Report](https://www.virustotal.com/gui/url/9fe68971ec83f32ed51590bdd212448d6bbaa45361189e4282342170ccba91ba) |
+| ⚡ **Oyunu_Baslat.bat (Launcher)** | `22f29dd93d78334f48902e6169c29869c6e388f6b583b4692d7c8ed43f459e1c` | [VirusTotal Report](https://www.virustotal.com/gui/url/148883740dfc97bd9dd05d2012e2c0ac0f353432b72554fd3f72d9cda026409a) |
 
 ---
 
@@ -37,8 +37,8 @@ https://www.youtube.com/watch?v=sZ9ysGepE8M
   *Smooth & Crisp Visuals: Replaced blurry FXAA and artifacting filters with Lanczos scaling, SMAA anti-aliasing, and 16x Anisotropic texture filtering.*
 - ⚡ **30.000+ v54 Shader Cache & Dahili Recipe Desteği:** Oyun esnasındaki tüm shader derleme takılmaları (stutter/donma) ortadan kaldırılmıştır. Fritchii `.nx2recipe` desteği dahildir.  
   *30,000+ v54 Shader Cache & Native Recipe Support: Eliminates all in-game shader compilation stutters. Includes official Fritchii `.nx2recipe` integration.*
-- 🚀 **Lossless Scaling v3.2.2 & Otomatik Kapanma:** LSFG 2.3 X2 modeli ile optimize edilmiş 120 FPS akıcılık. Oyundan çıkıldığında Lossless Scaling arka planda açık kalmaz, otomatik olarak kapatılır.  
-  *Lossless Scaling v3.2.2 & Auto-Close: LSFG 2.3 X2 frame generation (120 FPS). Automatically terminates Lossless Scaling when the game exits.*
+- 🚀 **Lossless Scaling LSFG 2X Desteği (Opsiyonel / Optional):** Bu paket Lossless Scaling teknolojisini tam uyumlu olarak destekler. Sisteminizde Lossless Scaling açıksa başlatıcı otomatik olarak profilinizi optimize eder ve oyunu 120 FPS akıcılıkla tam ekranda ölçekler. En iyi çift kat FPS (120 FPS) deneyimi için geliştiricinin resmi Steam sayfasından temin edebilirsiniz: 👉 [Steam: Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/)  
+  *Optional Lossless Scaling Support: Fully compatible with Lossless Scaling LSFG 2X frame generation. If Lossless Scaling is running, the launcher automatically optimizes the profile for borderless fullscreen 120 FPS. You can support the developers and purchase the official tool on Steam: 👉 [Steam: Lossless Scaling](https://store.steampowered.com/app/993090/Lossless_Scaling/)*
 - 🖥️ **Kenarlıksız Tam Ekran (Borderless Fullscreen):** Emülatörün menü ve durum çubukları gizlenmiş, tam ekranda otomatik ölçekleme yapılandırılmıştır.  
   *Borderless Fullscreen: Clean borderless fullscreen experience with automated window scaling.*
 - 📦 **Taşınabilir & Tak-Çalıştır (Portable):** Kurulum gerektirmez, kayıt dosyalarınızı ve ayarlarınızı kendi klasöründe saklar.  
